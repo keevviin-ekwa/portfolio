@@ -1,0 +1,65 @@
+.container{
+   width: 1036px;
+   height: 669px;
+   background-color: whitesmoke;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+
+.left-side{
+ flex: 1;
+}
+
+.rigth-side{
+  flex: 1;
+
+ }
+
+ .avatar{
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: calc((100% - 250px) / 2 );
+  right: calc((100% - 250px)/2);
+  background-image: url("./assets/images/profils.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+ .name{
+  width: 418px;
+  text-transform: uppercase;
+  height: 125px;
+  background-color: white;
+  position: absolute;
+  opacity: 0.8;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 385px;
+  left: calc((100% - 418px) / 2 );
+  right: calc((100% - 418px)/2);
+ }
+
+ .complet_name{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+ }
+
+ .role{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  color: grey;
+ }
